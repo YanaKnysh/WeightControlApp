@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeightControlApp", "WeightControlApp\WeightControlApp.csproj", "{CC0C3B6A-E337-4501-A5B8-84451F56810F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeightControlApp.Tests", "WeightControlApp.Tests\WeightControlApp.Tests.csproj", "{CFC9A12F-546F-4D1C-8524-4B2763FF754E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,10 @@ Global
 		{CC0C3B6A-E337-4501-A5B8-84451F56810F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC0C3B6A-E337-4501-A5B8-84451F56810F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CC0C3B6A-E337-4501-A5B8-84451F56810F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{CFC9A12F-546F-4D1C-8524-4B2763FF754E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFC9A12F-546F-4D1C-8524-4B2763FF754E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFC9A12F-546F-4D1C-8524-4B2763FF754E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFC9A12F-546F-4D1C-8524-4B2763FF754E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

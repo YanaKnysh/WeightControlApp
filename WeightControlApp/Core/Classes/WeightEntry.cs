@@ -4,19 +4,21 @@ namespace WeightControlApp.Core.Classes
 {
     public class WeightEntry
     {
-        public WeightEntry(int weight, WeightUnit weightUnit, DateTime weightDateTime) 
+        public WeightEntry(int id, double measure, WeightUnit unit, DateTime weightDate) 
         {
-            Weight = weight;
-            WeightUnit = weightUnit;
-            WeightDateTime = weightDateTime;
+            Id = id;
+            Measure = measure;
+            Unit = unit;
+            Date = weightDate;
         }
 
         public WeightEntry()
         {
         }
 
-        public int Weight { get; set; }
-        public WeightUnit WeightUnit { get; set; }
-        public DateTime WeightDateTime { get; set; }
+        public int Id { get; set; }
+        public double Measure { get; set; }
+        public WeightUnit Unit { get; set; }
+        public DateTime Date { get; set; }
     }
 }
